@@ -48,4 +48,4 @@ RUN groupadd -f docker
 RUN usermod -aG docker jenkins
 
 # 다시 jenkins 사용자로 전환
-USER jenkins
+USER root
