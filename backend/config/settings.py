@@ -94,9 +94,9 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "mydb",          # 데이터베이스 이름
-        "USER": "kogo",      # PostgreSQL 사용자
-        "PASSWORD": "math1106",      # PostgreSQL 비밀번호
-        "HOST": "localhost",     # 또는 서버 IP
+        "USER": "admin",      # PostgreSQL 사용자
+        "PASSWORD": "1234",      # PostgreSQL 비밀번호
+        "HOST": "postgres",     # 또는 서버 IP
         "PORT": "5432",
     }
 }
